@@ -77,3 +77,19 @@ strong {
     font-family: lemonmilk;
     font-size: 20px;
 }
+
+@media(max-width: 715px) {
+    
+    nav {
+        background: #FA8500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+        gap: 2rem;
+    }
+    
+    a {
+        padding: 0;
+    }
+}
