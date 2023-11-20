@@ -92,4 +92,8 @@ strong {
     a {
         padding: 0;
     }
+
+    header a:hover {
+        display: none;
+    }
 }
